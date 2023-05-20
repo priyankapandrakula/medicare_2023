@@ -11,20 +11,38 @@ function AdminHome() {
     const [checkedValue, SetcheckedValue] = useState(false);
     const [productData, setProductData] = useState([]);
 
+    // const deleteProduct = (pid) => {
+    //     axios.get("http://localhost:8081/deleteProduct/" + pid)
+    //         .then(response => alert("Medicine Data Deleted"));
+    //     window.location.reload();
+    // }
+
+    // const changeStatus = (pid) => {
+    //     axios.get("http://localhost:8081/updateStatus/" + pid)
+    //         .then(response => console.log("A"));
+    //         window.location.reload();
+       
+    // }
+    // const getData=()=>{
+    //     axios.get("http://localhost:8081/getAllProducts")
+    //     .then(response => setProductData(response.data));
+    // }
+
+
     const deleteProduct = (pid) => {
-        axios.get("http://localhost:8081/deleteProduct/" + pid)
+        axios.get("http://54.235.225.55:8080/deleteProduct/" + pid)
             .then(response => alert("Medicine Data Deleted"));
         window.location.reload();
     }
 
     const changeStatus = (pid) => {
-        axios.get("http://localhost:8081/updateStatus/" + pid)
+        axios.get("http://54.235.225.55:8080/updateStatus/" + pid)
             .then(response => console.log("A"));
             window.location.reload();
        
     }
     const getData=()=>{
-        axios.get("http://localhost:8081/getAllProducts")
+        axios.get("http://54.235.225.55:8080/getAllProducts")
         .then(response => setProductData(response.data));
     }
     useEffect(() => {

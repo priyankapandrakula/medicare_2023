@@ -16,7 +16,7 @@ const SignIn = () => {
 
 
     async function getResponse(){
-        const res = await fetch('http://localhost:8081/getUsers')
+        const res = await fetch('http://54.235.225.55:8080/getUsers')
                           .then(res=> res.json());
                           SetUsers(await res);
                           console.log(res);

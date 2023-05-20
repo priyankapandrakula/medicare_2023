@@ -81,12 +81,12 @@ let currentDate = `${day}-${month}-${year}`;
         "date":currentDate
       }
 
-      // axios.post('http://localhost:8081/addOrder', data)
-      //           .then(response => alert("Order Placed"));
+      axios.post('http://54.235.225.55:8080/addOrder', data)
+                .then(response => alert("Order Placed"));
       SetItems(items);
       SetTotalPrice(cartTotal);
       console.log(data_items)
-      // emptyCart();
+      emptyCart();
       navigate("/order",{state:{total:totalPrice,Items:data_items}});
 
     }

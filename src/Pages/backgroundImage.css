@@ -1,0 +1,18 @@
+.containerUnique{
+    background-image: url("https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/living-with-a-chronic-disease/help-for-managing-multiple-medications-hero.ashx?h=500&iar=0&mh=500&mw=1300&w=1297&hash=122DB3C1DCAD683F2F7CAE139A67613C");
+    height: 31pc;
+    opacity: .8;
+}
+
+.containerUnique2{
+    background-image: url("https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/living-with-a-chronic-disease/help-for-managing-multiple-medications-hero.ashx?h=500&iar=0&mh=500&mw=1300&w=1297&hash=122DB3C1DCAD683F2F7CAE139A67613C");
+    height: 38pc;
+    opacity: .8;
+    background-size: cover;
+}
+.containerUnique3{
+    background-image: url("https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/living-with-a-chronic-disease/help-for-managing-multiple-medications-hero.ashx?h=500&iar=0&mh=500&mw=1300&w=1297&hash=122DB3C1DCAD683F2F7CAE139A67613C");
+    height: 41pc;
+    opacity: .8;
+    background-size: cover;
+}

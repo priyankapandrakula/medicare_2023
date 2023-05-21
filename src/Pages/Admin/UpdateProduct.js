@@ -50,7 +50,7 @@ function UpdateProduct() {
       const handleSubmit=(event)=>{
         event.preventDefault();
         console.log(data);
-        axios.put("http://54.235.225.55:8080/addProduct",data)
+        axios.put("http://localhost:8081/addProduct",data)
         .then(resp=>alert("Medicine Updated"))
         navigate('/admin_home')
       }

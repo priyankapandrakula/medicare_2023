@@ -32,7 +32,7 @@ function CreateProduct() {
 
             }
 
-            axios.put('http://54.235.225.55:8080/addProduct', data1)
+            axios.put('http://localhost:8081/addProduct', data1)
             .then(response => alert("Medicine Added"));
             navigate("/admin_home");
                 }

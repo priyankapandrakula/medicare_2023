@@ -30,7 +30,7 @@ const Register = () => {
                 "address":address,
                 "password":password
              };
-            axios.post('http://54.235.225.55:8080/addUser', data)
+            axios.post('http://localhost:8081/addUser', data)
                 .then(response => alert("data addred"));
             setLoading(false);
             navigate('/sign-in')

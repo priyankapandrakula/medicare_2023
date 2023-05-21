@@ -81,7 +81,7 @@ let currentDate = `${day}-${month}-${year}`;
         "date":currentDate
       }
 
-      axios.post('http://54.235.225.55:8080/addOrder', data)
+      axios.post('http://localhost:8081/addOrder', data)
                 .then(response => alert("Order Placed"));
       SetItems(items);
       SetTotalPrice(cartTotal);

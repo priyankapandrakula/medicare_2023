@@ -2,10 +2,9 @@ import React from 'react';
 import { Button, Card} from 'react-bootstrap';
 import { useCart } from 'react-use-cart';
 import { BsCartPlus } from 'react-icons/bs';
-import { Link } from  "@reach/router";
 
 const ProductCard = (props) => {
-    let { image, price, name,seller,description, id} = props.data;
+    let {  price, name,seller,description, id} = props.data;
     const { addItem } = useCart();
 
     const addToCart = () =>{
@@ -25,6 +24,9 @@ const ProductCard = (props) => {
                 </div>
             </Link> */}
             <Card.Body>
+            <Card.Title style={{textAlign:'center', textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap'}}>
+                   {id}
+                </Card.Title>
                 <Card.Title style={{ textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap'}}>
                    <u><b>Name:</b></u> {name}
                 </Card.Title>

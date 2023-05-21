@@ -12,7 +12,7 @@ const Home = () => {
     const name=sessionStorage.getItem("name");
     // sessionStorage.removeItem("name");
     const getResponse= async ()=>{
-        const res = await fetch('http://54.235.225.55:8080/getProducts')
+        const res = await fetch('http://localhost:8081/getProducts')
                           .then(res=> res.json());
                           setProductData(await res);
                         

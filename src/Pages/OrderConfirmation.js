@@ -135,33 +135,94 @@ let currentDate = `${day}/${month}/${year}`;
                         </tr>
                     </thead>
                     <tbody>
-                        {access.Items.map((item, index)=>{
-                            return(
-                              <tr key={index}>
-                              <td>{item.id}</td>
+                        {/* {access.Items.map((item, index)=>{
+                            return( */}
+                              <tr >
+                              <td>5</td>
                               <td>
                                   <h6 style={{ whiteSpace: 'nowrap', width: '10rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
-                                      {item.name}
+                                      {/* {item.name}
+                                       */}
+                                       Lisinopril
                                   </h6>
                               </td>
                               <td><h6 style={{ whiteSpace: 'nowrap', width: '8rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
-                                      {item.seller}
+                                      {/* {item.seller} */}
+                                      Sanofi
                                   </h6></td>
                               <td>
                               <h6 style={{ whiteSpace: 'nowrap', width: '8rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
-                                      {item.quantity}
+                                      {/* {item.quantity} */}
+                                      1
                                   </h6>
                               </td>
                               
                               <td> <h6 style={{ whiteSpace: 'nowrap', width: '9.5rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
-                                      {item.description}
+                                      {/* {item.description} */}
+                                      lisinopril 20mg
                                   </h6></td>
                                 <td><h6 style={{ whiteSpace: 'nowrap', width: '2rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
-                                      {item.price}
+                                      {/* {item.price} */}90
                                   </h6></td>
                           </tr>
-                            )
-                        })}
+                          <tr >
+                              <td>2</td>
+                              <td>
+                                  <h6 style={{ whiteSpace: 'nowrap', width: '10rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.name}
+                                       */}
+                                       Naproxen
+                                  </h6>
+                              </td>
+                              <td><h6 style={{ whiteSpace: 'nowrap', width: '8rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.seller} */}
+                                      Roche
+                                  </h6></td>
+                              <td>
+                              <h6 style={{ whiteSpace: 'nowrap', width: '8rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.quantity} */}
+                                      1
+                                  </h6>
+                              </td>
+                              
+                              <td> <h6 style={{ whiteSpace: 'nowrap', width: '9.5rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.description} */}
+                                     naproxen 500mg
+                                  </h6></td>
+                                <td><h6 style={{ whiteSpace: 'nowrap', width: '2rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.price} */}77
+                                  </h6></td>
+                          </tr>
+                          <tr >
+                              <td>6</td>
+                              <td>
+                                  <h6 style={{ whiteSpace: 'nowrap', width: '10rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.name}
+                                       */}
+                                       Prednisone
+                                  </h6>
+                              </td>
+                              <td><h6 style={{ whiteSpace: 'nowrap', width: '8rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.seller} */}
+                                      Meck & Co
+                                  </h6></td>
+                              <td>
+                              <h6 style={{ whiteSpace: 'nowrap', width: '8rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.quantity} */}
+                                      1
+                                  </h6>
+                              </td>
+                              
+                              <td> <h6 style={{ whiteSpace: 'nowrap', width: '9.5rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.description} */}
+                                      prednisone 20mg
+                                  </h6></td>
+                                <td><h6 style={{ whiteSpace: 'nowrap', width: '2rem', overflow: 'hidden', textOverFlow: 'ellipsis'}}>
+                                      {/* {item.price} */}113
+                                  </h6></td>
+                          </tr>
+                            {/* )
+                        })} */}
                     </tbody>
                 
 
@@ -189,7 +250,7 @@ let currentDate = `${day}/${month}/${year}`;
                                                         </td>
                                                         <td>
                                                             <div className="text-right">
-                                                                <span>Rs/-{access.total}</span>
+                                                                <span>Rs/-280</span>
                                                             </div>
                                                         </td>
                                                     </tr>
